@@ -1,0 +1,22 @@
+.buttonclicked {
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .buttonclicked:hover {
+    opacity: 0.8;
+  }
+  
+  .buttonclicked:disabled {
+    cursor: not-allowed;
+  }
+  
+  .buttonclicked.active {
+    background: #3e6ae1;
+    color: #0eb1e2;
+  }
